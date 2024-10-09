@@ -14,7 +14,7 @@ def verificar_media(media):
 n1, n2, n3 = map(float, input("digite a nota 1, 2 e 3: ").split())   
 
 resulMedia = calcular_media(n1, n2, n3)
-print(f"{resulMedia:.1f}")
+print(f"a média final é: {resulMedia:.1f}")
 resulFinal = verificar_media(resulMedia)
 print(resulFinal)
     
